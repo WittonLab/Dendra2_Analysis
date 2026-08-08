@@ -32,8 +32,12 @@ Download this repository and add the relevant directories (including Requirement
 
 
 ## Usage
-All functions can be run from "dendra2_Master.m", with an input of the batch file full directory path and file name (as a character string).
+All functions can be run from "dendra2_Master.m", with an input of the full file name of the batch file (as a string).
 
+```matlab
+fnBatch = 'C:\Desktop\dendra2_batch.xlsx';  % batch file name 
+dendra2_Master(fnBatch)
+```
 
 ## Licence and Acknowledgement
 The code is provided "As Is" under the BSD-3-Clause license.
