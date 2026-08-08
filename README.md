@@ -11,8 +11,8 @@ Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.
 - Images files should be saved in OME-TIFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
     (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bio-Formats Exporter (https://imagej.net/formats/bio-formats) (4).
 
-- Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename, 
-    and immediately before the ".ome.tif" suffix (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif").
+- Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename 
+    immediately before the ".ome.tif" suffix (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif").
 
 - On the first day of the experiment ('day 1') two recordings are performed - one before dendra2 photoconversion, and one after photoconversion. 
     The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif"),
