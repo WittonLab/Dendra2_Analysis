@@ -36,7 +36,7 @@ All functions can be run from "dendra2_Master.m", with an input of the batch fil
 
 
 ## Licence and Acknowledgement
-The code is provided 'As Is' under the BSD-3-Clause license.
+The code is provided "As Is" under the BSD-3-Clause license.
 
 If you use the code in academic research, please cite this GitHub repository: https://github.com/WittonLab/dendra2_Analysis/ 
 Citation is greatly appreciated but is not a condition of use under the BSD-3-Clause licence.
