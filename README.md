@@ -35,7 +35,7 @@ Download this repository and add the relevant directories (including Requirement
 All functions can be run from "dendra2_Master.m", with an input of the full batch file name (as a string). E.g.:
 
 ```matlab
-dendra2_Master('C:\batch_example.xlsx')
+dendra2_Master('C:\dendra2_Analysis\batch_example.xlsx')
 ```
 
 ## Licence and Acknowledgement
