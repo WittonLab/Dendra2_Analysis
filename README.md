@@ -3,8 +3,8 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 
 ## Data Format
-- All image files (XYZC format) for an experiment (i.e., recordings across multiple days, one file per recording) should be saved within a single folder.
-    Files for other experiments should be saved in separate folders.
+- All image files for an experiment (recordings across multiple days, one XYZC format file per recording) should be saved in a single folder.
+    Files for different experiments should be saved in separate folders.
 
 - Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet.
 
@@ -35,7 +35,7 @@ Download this repository and add the relevant directories (including Requirement
 All functions can be run from "dendra2_Master.m", with an input of the full batch file name (as a string). E.g.:
 
 ```matlab
-dendra2_Master('C:\Desktop\dendra2_batch.xlsx')
+dendra2_Master('C:\Desktop\batch_example.xlsx')
 ```
 
 ## Licence and Acknowledgement
