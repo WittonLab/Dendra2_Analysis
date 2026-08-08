@@ -9,18 +9,18 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 - Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet.
 
 - Images should be saved in OME-TIFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
-  (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bioformats Exporter (https://imagej.net/formats/bio-formats) (4).
+  (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bio-Formats Exporter (https://imagej.net/formats/bio-formats) (4).
 
 - Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename, 
     and immediately before the ".ome.tif" suffix, e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif".
 
-- On the first day of the experiment ('day 1') two image series are collected - one before photoconversion, and one after photoconversion. 
+- On the first day of the experiment ('day 1') two recordings are performed - one before dendra2 photoconversion, and one after photoconversion. 
   The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif"),
     and the post photoconversion should be named "day 1.1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.1.ome.tif").
 
 
 ## Requirements
-- Bioformats Image Toolbox for MATLAB
+- "Bioformats Image Toolbox" for MATLAB
    (see https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox) (5)
 
 - "Efficient subpixel image registration by cross-correlation" toolbox for MATLAB 
@@ -32,7 +32,7 @@ Download this repository and add the relevant directories (including Requirement
 
 
 ## Usage
-All functions can be run from "dendra2_Master.m", with an input of the full file name of the batch file (as a string). E.g.:
+All functions can be run from "dendra2_Master.m", with an input of the full batch file name (as a string). E.g.:
 
 ```matlab
 dendra2_Master('C:\Desktop\dendra2_batch.xlsx')
