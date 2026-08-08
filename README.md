@@ -3,7 +3,7 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 
 ## Data Format
-- All image files (XYZC format) for an experiment (i.e., recordings across multiple days, 1 file per day) should be saved within a single folder.
+- All image files (XYZC format) for an experiment (i.e., recordings across multiple days, one file per recording) should be saved within a single folder.
     Files for other experiments should be saved in separate folders.
 
 - Folder names should be specified in a batch file, provided as a columnar list in an Excel spreadsheet.
