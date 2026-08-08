@@ -6,16 +6,16 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 - All image files for an experiment (recordings across multiple days, one XYZC format file per recording) should be saved in a single folder.
     Files for different experiments should be saved in separate folders.
 
-- Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet.
+- Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet (see "batch_example.xlsx").
 
 - Images should be saved in OME-TIFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
-  (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bio-Formats Exporter (https://imagej.net/formats/bio-formats) (4).
+    (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bio-Formats Exporter (https://imagej.net/formats/bio-formats) (4).
 
 - Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename, 
     and immediately before the ".ome.tif" suffix, e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif".
 
 - On the first day of the experiment ('day 1') two recordings are performed - one before dendra2 photoconversion, and one after photoconversion. 
-  The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif"),
+    The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif"),
     and the post photoconversion should be named "day 1.1" (e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.1.ome.tif").
 
 
@@ -35,14 +35,13 @@ Download this repository and add the relevant directories (including Requirement
 All functions can be run from "dendra2_Master.m", with an input of the full batch file name (as a string). E.g.:
 
 ```matlab
-dendra2_Master('C:\Desktop\batch_example.xlsx')
+dendra2_Master('C:\batch_example.xlsx')
 ```
 
 ## Licence and Acknowledgement
 The code is provided "As Is" under the BSD-3-Clause license.
 
 If you use the code in academic research, please cite this GitHub repository: https://github.com/WittonLab/dendra2_Analysis/ 
-Citation is greatly appreciated but is not a condition of use under the BSD-3-Clause licence.
 
 
 ## References
