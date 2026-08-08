@@ -14,7 +14,7 @@ Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.
 - Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename 
     immediately before the ".ome.tif" suffix (e.g., "Experiment 1\_slice 2\_day 1.ome.tif").
 
-- On the first day of the experiment ('day 1') two recordings are performed - one before dendra2 photoconversion, and one after photoconversion. 
+- Two recordings are performed on the first day of the experiment - one before dendra2 photoconversion, and one after photoconversion. 
     The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_slice 2\_day 1.ome.tif"),
     and the post photoconversion should be named "day 1.1" (e.g., "Experiment 1\_slice 2\_day 1.1.ome.tif").
 
