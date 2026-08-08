@@ -28,7 +28,7 @@ Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.
 
 
 ## Installation
-Download this repository and add the relevant directories (including Requirements) to the MATLAB path.
+Download this repository and add the relevant directories for this repository and the Requirements to the MATLAB path.
 
 
 ## Usage
