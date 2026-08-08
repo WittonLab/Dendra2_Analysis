@@ -8,7 +8,7 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 - Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet.
 
-- Images should be saved in OME -IFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
+- Images should be saved in OME-TIFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
   (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bioformats Exporter (https://imagej.net/formats/bio-formats) (4).
 
 - Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename, 
