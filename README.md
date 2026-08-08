@@ -1,5 +1,5 @@
 # dendra2_Analysis
-Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.  
+Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.  
 
 
 ## Data Format
