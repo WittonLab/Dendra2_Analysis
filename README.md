@@ -21,7 +21,7 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 ## Requirements
 - Bioformats Image Toolbox for MATLAB (for reading and writing OME TIFF files) (ref. 5; 
-  (available from https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox)
+  available from https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox)
 
 - "Efficient subpixel image registration by cross-correlation" toolbox for MATLAB (for image registration) 
    (ref. 6; available from https://www.mathworks.com/matlabcentral/fileexchange/18401-efficient-subpixel-image-registration-by-cross-correlation)
@@ -32,7 +32,7 @@ Download this repository and add the relevant directories (including Requirement
 
 
 ## Usage
-All functions can be run from the function "dendra2_Master.m"
+All functions can be run from "dendra2_Master.m", with an input of the batch file full directory path and file name (as a character string).
 
 
 ## Licence and Acknowledgement
@@ -43,9 +43,9 @@ Citation is greatly appreciated but is not a condition of use under the BSD-3-Cl
 
 
 ## References
-(1) Goldberg I, et al. (2005). Genome Biol. 6:R47. DOI: 10.1186/gb-2005-6-5-r47
-(2) Besson S, et al. (2019). Lecture Notes in Computer Science, vol 11435. DOI: 10.1007/978-3-030-23937-4_1
-(3) Schindelin et al. (2012). doi:10.1038/nmeth.2019
-(4) Linkert M, Et al. (2010). J. Cell Biol. 189(5), 777-782. DOI: 10.1083/jcb.201004104
-(5) Tay JW. (2026). Bioformats Image Toolbox (https://github.com/Biofrontiers-ALMC/bioformats-matlab/releases/tag/v1.2.3), GitHub. Retrieved August 8, 2026.
+(1) Goldberg I, et al. (2005). Genome Biol. 6:R47. DOI: 10.1186/gb-2005-6-5-r47 <br>
+(2) Besson S, et al. (2019). Lecture Notes in Computer Science, vol 11435. DOI: 10.1007/978-3-030-23937-4_1 <br>
+(3) Schindelin et al. (2012). doi:10.1038/nmeth.2019 <br>
+(4) Linkert M, Et al. (2010). J. Cell Biol. 189(5), 777-782. DOI: 10.1083/jcb.201004104 <br>
+(5) Tay JW. (2026). Bioformats Image Toolbox (https://github.com/Biofrontiers-ALMC/bioformats-matlab/releases/tag/v1.2.3), GitHub. Retrieved August 8, 2026. <br>
 (6) Guizar-Sicairos M, et al. (2008). Opt. Lett. 33, 156-158. DOI: 10.1364/ol.33.000156
