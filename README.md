@@ -8,8 +8,8 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 - Folder names should be specified in a batch file, provided as a columnar list in an Excel spreadsheet.
 
-- Images should be saved in OME TIFF format (refs. 1,2). If the raw images are saved in another format, try opening in Fiji software
-  (ref. 3; https://imagej.net/software/fiji/) and saving as an OME TIFF using the Bioformats Exporter (ref. 4; https://imagej.net/formats/bio-formats).
+- Images should be saved in OME -IFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
+  (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bioformats Exporter (https://imagej.net/formats/bio-formats) (4).
 
 - Image files should follow a consistent naming convention, with the experiment day specified after a space at the end of the filename, 
     and immediately before the ".ome.tif" suffix, e.g., "Experiment 1\_control\_slice 2\_plate 1\_day 1.ome.tif".
@@ -20,11 +20,11 @@ Code to analyse 3D (XYZ) multichannel dendra2 image series in MATLAB.
 
 
 ## Requirements
-- Bioformats Image Toolbox for MATLAB (for reading and writing OME TIFF files) (ref. 5; 
-  available from https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox)
+- Bioformats Image Toolbox for MATLAB
+   (see https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox) (5)
 
-- "Efficient subpixel image registration by cross-correlation" toolbox for MATLAB (for image registration) 
-   (ref. 6; available from https://www.mathworks.com/matlabcentral/fileexchange/18401-efficient-subpixel-image-registration-by-cross-correlation)
+- "Efficient subpixel image registration by cross-correlation" toolbox for MATLAB 
+   (see https://www.mathworks.com/matlabcentral/fileexchange/18401-efficient-subpixel-image-registration-by-cross-correlation) (6)
 
 
 ## Installation
@@ -32,11 +32,10 @@ Download this repository and add the relevant directories (including Requirement
 
 
 ## Usage
-All functions can be run from "dendra2_Master.m", with an input of the full file name of the batch file (as a string).
+All functions can be run from "dendra2_Master.m", with an input of the full file name of the batch file (as a string). E.g.:
 
 ```matlab
-fnBatch = 'C:\Desktop\dendra2_batch.xlsx';  % batch file name 
-dendra2_Master(fnBatch)
+dendra2_Master('C:\Desktop\dendra2_batch.xlsx')
 ```
 
 ## Licence and Acknowledgement
