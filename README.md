@@ -6,7 +6,7 @@ Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.
 - All image files for an experiment (recordings across multiple days, one XYZC format file per recording) should be saved in a single folder.
     Files for different experiments should be saved in separate folders.
 
-- Folder names should be specified in a batch file, provided as a columnwise list in an Excel spreadsheet (see "batch_example.xlsx").
+- Folder names should be specified in a batch file, provided as a columnwise list in a spreadsheet (see "batch_example.xlsx").
 
 - Images should be saved in OME-TIFF format (1,2). If the raw images are saved in another format, try opening in Fiji software
     (https://imagej.net/software/fiji/) (3) and saving as an OME-TIFF using the Bio-Formats Exporter (https://imagej.net/formats/bio-formats) (4).
