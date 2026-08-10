@@ -1,5 +1,5 @@
 # Dendra2_Analysis
-Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.  
+Code to analyse 3D multichannel (XYZC) Dendra2 image series in MATLAB.  
 
 
 ## Data Format
@@ -15,8 +15,8 @@ Code to analyse 3D multichannel (XYZC) dendra2 image series in MATLAB.
     immediately before the ".ome.tif" suffix (e.g., "Experiment 1\_slice 2\_day 1.ome.tif").
 
 - Two recordings are performed on the first day of the experiment - one before dendra2 photoconversion, and one after photoconversion. 
-    The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_slice 2\_day 1.ome.tif"),
-    and the post photoconversion should be named "day 1.1" (e.g., "Experiment 1\_slice 2\_day 1.1.ome.tif").
+    The pre-photoconversion file should be named "day 1" (e.g., "Experiment 1\_slice 2\_day 1.ome.tif").
+    The post photoconversion should be named "day 1.1" (e.g., "Experiment 1\_slice 2\_day 1.1.ome.tif").
 
 
 ## Requirements
@@ -41,7 +41,7 @@ dendra2_Master('C:\dendra2_Analysis\batch_example.xlsx')
 ## Licence and Acknowledgement
 The code is provided "As Is" under the BSD-3-Clause license.
 
-If you use the code in academic research, please cite this GitHub repository: https://github.com/WittonLab/dendra2_Analysis/ 
+If you use the code in academic research, please cite this GitHub repository: https://github.com/WittonLab/Dendra2_Analysis 
 
 
 ## References
